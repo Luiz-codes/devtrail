@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: devtrail
+  datasource:
+    url: jdbc:postgresql://${NEON_HOST}/${NEON_DB}?sslmode=require
+    username: ${NEON_USER}
+    password: ${NEON_PASSWORD}
+    hikari:
+      maximum-pool-size: 5
+      connection-timeout: 30000
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  flyway:
+    enabled: true
