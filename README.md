@@ -90,11 +90,11 @@ src/main/resources/db/migration    migrations do Flyway (V1__, V2__, ...)
 - [x] Setup do projeto com Spring Boot, Java 21 e Maven
 - [x] Conexão com PostgreSQL no Neon via variáveis de ambiente
 - [x] Migrations com Flyway (tabela `workspace`)
-- [ ] Autenticação com Spring Security e JWT
-- [ ] Usuários e perfis de acesso
-- [ ] Workspaces (multitenancy)
-- [ ] Registro de estudos, projetos e metas
-- [ ] Dashboard de evolução (horas por semana, sequência de dias)
+- [x] Autenticação com Spring Security e JWT
+- [x] Usuários e perfis de acesso
+- [x] Workspaces (multitenancy)
+- [x] Registro de estudos, projetos e metas
+- [x] Dashboard de evolução (horas por semana, sequência de dias)
 - [ ] Testes automatizados
 - [ ] Front-end em Vue 3
 - [ ] Deploy
